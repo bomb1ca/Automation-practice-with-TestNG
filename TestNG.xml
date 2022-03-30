@@ -1,0 +1,17 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationTestNg">
+    <parameter name="email" value=""/>
+    <parameter name="idOrder" value=""/>
+    <parameter name="message" value=""/>
+
+    <test name="Test Contact Us form">
+        <parameter name="email" value="qwe@qwe.com"/>
+        <parameter name="idOrder" value="123"/>
+        <parameter name="message" value="some random message"/>
+        <classes>
+            <class name="AutomationTest"/>
+        </classes>
+    </test>
+</suite>
